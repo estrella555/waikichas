@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Restaurant</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header-top">
+        <div class="more">
+            <div class="header-info">
+                <a href="tel:+59160503773" class="call-button">
+                    <span><i class="fa-solid fa-phone"></i> (+591) 60503773</span>
+                </a>
+                <a href="#ubicaciones" class="location-button" alt="Ver nuestras sucursales">
+                    <span><i class="fa-solid fa-map-marker-alt"></i> Nuestras sucursales</span>
+                </a>
+            </div>
+            <div class="social-icons">
+                <a href="https://wa.me/59160503773" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/14mR2eY61r/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@waikichas?_t=ZM-8u34BeKLPhH&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+    
+
+  <header class="header">
+    <img src="/assets/img/favicon.png" alt="Tacos" class="corner top-left">
+    <h1>Menú Restaurant</h1>
+    <h2>Waikichas</h2>
+    <p>Peruvian Cuisine</p>
+    <img src="/assets/img/papas.png" alt="Hamburguesa" class="corner top-right">
+  </header>
+
+  <main>
+      <button id="filter-toggle" class="filter-btn toggle-btn">
+          <i class="fa fa-filter"></i> Filtros
+      </button>
+      
+      <div id="filters-container" class="filters-container"></div>
+
+      <div id="menu-container" class="menu-container category-view"></div>
+
+      <div id="modal" class="modal">
+          <div class="modal-content">
+              <span id="modal-close" class="close">&times;</span>
+              <img id="modal-image" alt="Imagen ampliada">
+          </div>
+      </div>
+      
+  </main>
+
+  
+    <section id="ubicaciones" class="ubicaciones">
+        <h2>Nuestras Sucursales</h2>
+
+        <!-- La Paz -->
+        <div class="city-group">
+            <h3>La Paz</h3>
+            <div class="map-grid">
+                <div class="map-container">
+                    <h4>Megacenter PB | Av. Rafael Pabón, Irpavi</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75018.47653347437!2d-68.14972935682454!3d-16.513200095105887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f216989fbad45%3A0x2cc3f1b0950c362a!2sWaikichas!5e0!3m2!1ses!2sbo!4v1740200705879!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-container">
+                    <h4>Miraflores | Av. Busch #1499, casi esq. Panamá</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3825.569270821432!2d-68.12303197162213!3d-16.497333800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1740719472577!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+                </div>
+                <div class="map-container">
+                    <h4>Batallón Colorado</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122414.33524026434!2d-68.21109023096778!3d-16.503466599999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2182341f07d1%3A0x9563d3b247e72a49!2sWaikichas!5e0!3m2!1ses!2sbo!4v1740200752615!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-container">
+                    <h4>Caparazón Mall | Av. Apumalla, 14 de Septiembre</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.650660428138!2d-68.1451446!3d-16.4932174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf2ae3f6d437%3A0x779d3169ddea1b35!2sCaparaz%C3%B3n%20Mall%20Center!5e0!3m2!1ses!2sbo!4v1740720955366!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </div>
+
+        <!-- El Alto -->
+        <div class="city-group">
+            <h3>El Alto</h3>
+            <div class="map-grid">
+                <div class="map-container">
+                    <h4>Cielo Mall Piso 3 | Cruce Viacha (frente a juzgados)</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.1922843276084!2d-68.16844602575956!3d-16.516387441145607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf6f178e9f51%3A0x572d87e781700e02!2sCielo%20Mall!5e0!3m2!1ses!2sbo!4v1740202904255!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-container">
+                    <h4>Multicine | Río Seco, entre Av. Costanera y calle CH</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.6851123808824!2d-68.20643992576026!3d-16.491474640504066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf94682eedf5%3A0x313cb124750cba99!2sMulticine!5e0!3m2!1ses!2sbo!4v1740201992024!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-container">
+                    <h4>Cinebol Piso 3 | Av. Alfredo Sanjines Edif. Gran Plaza</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.9712266495835!2d-68.1479499!3d-16.5275502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf4d7c5ee75b%3A0x50ad520f8ab3bf8f!2sCINEBOL!5e0!3m2!1ses!2sbo!4v1740720704768!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+                </div>
+                <div class="map-container">
+                    <h4>La Jungla | Av. Jorge Carrasco, 12 de Octubre entre calles 3 y 4</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15301.44244565913!2d-68.17195453022464!3d-16.5078825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf99a58010e3%3A0x6fdbf08749bb3ede!2sLa%20Jungla!5e0!3m2!1ses!2sbo!4v1740721048289!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </div>
+
+        <!-- Cochabamba -->
+        <div class="city-group">
+            <h3>Cochabamba</h3>
+            <div class="map-grid">
+                <div class="map-container">
+                    <h4>Terminal Humboldt</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122414.33524026434!2d-66.165429!3d-17.393841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2182341f07d1%3A0x9563d3b247e72a49!2sWaikichas!5e0!3m2!1ses!2sbo!4v1740200752615!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map-container">
+                    <h4>Cine Center PB - Av. Ramón Rivero, Muyurina</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.666146044796!2d-66.1535203257323!3d-17.379790563986365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3750000f268a1%3A0x221eaf2072826032!2sWaiKichas%2C%20Peruvian%20Resto%20Bar!5e0!3m2!1ses!2sbo!4v1740201275648!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Santa Cruz -->
+        <div class="city-group">
+            <h3>Santa Cruz</h3>
+            <div class="map-grid">
+                <div class="map-container">
+                    <h4>Cine Center PB (2do patio) - Local 3B | Av. El Trompillo</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.8484828749165!2d-63.178991100000005!3d-17.7988167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e8407cf94383%3A0xb0b74cb153daba1f!2sCine%20Center!5e0!3m2!1ses!2sbo!4v1740720544335!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                <div class="map-container">
+                    <h4>Cine Center PB (2do patio) - Local PC2-4 | Av. El Trompillo<h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.8484828749165!2d-63.178991100000005!3d-17.7988167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e8407cf94383%3A0xb0b74cb153daba1f!2sCine%20Center!5e0!3m2!1ses!2sbo!4v1740720544335!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </div>
+
+        <!-- Tarija -->
+        <div class="city-group">
+            <h3>Tarija</h3>
+            <div class="map-grid">
+                <div class="map-container">
+                    <h4>Complejo Megacenter Piso 3 | Av. Integración, Guadalquivir</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.542775946166!2d-64.74478312558567!3d-21.525621989972386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94064872f0153db5%3A0xaff98f8eab62a437!2sMegaCenter!5e0!3m2!1ses!2sbo!4v1740202448635!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+  <footer class="inferior">
+      <p> All Rights Reserved 2025 © Waikichas | Desarrollado S-Mart Dev</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

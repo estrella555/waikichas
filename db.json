@@ -1,0 +1,522 @@
+{
+  "menu": [
+    {
+    "category": "Alitas",
+    "items": [
+        {
+          "id": 16,
+          "name": "Alitas a la Barbacoa",
+          "price": [
+            "30",
+            "38",
+            "55",
+            "100"
+          ],
+          "description": "6 unidades | 9 unidades | 12 unidades | 24 unidades ",
+          "image": "assets/img/alitas_bbq.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Alitas Búfalo",
+          "price": [
+            "30",
+            " 38",
+            " 55",
+            " 100"
+          ],
+          "description": "6 unidades | 9 unidades | 12 unidades | 24 unidades ",
+          "image": "assets/img/.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Alitas Miel y Mostaza",
+          "price": [
+            "30",
+            "38",
+            "55",
+            "100"
+          ],
+          "description": "6 unidades | 9 unidades | 12 unidades | 24 unidades ",
+          "image": "assets/img/.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Alitas Picantes",
+          "price": [
+            "30",
+            " 38",
+            " 55",
+            " 100"
+          ],
+          "description": "6 unidades | 9 unidades | 12 unidades | 24 unidades ",
+          "image": "assets/img/alitas_picantes.jpg"
+       },
+      {
+          "id": 15,
+          "name": "Alitas Tradicionales",
+          "price": [
+            "30",
+            "38",
+            "55",
+            "100"
+          ],
+
+          "description": "6 unidades | 9 unidades | 12 unidades | 24 unidades ",
+          "image": "assets/img/alitas_tradicionales.jpg"
+      }
+    ]
+  },
+
+  {
+    "category": "Carnes a la Parrilla",
+    "items": [
+      {
+        "id": 34,
+        "name": "Bife de chorizo",
+        "price": 60,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/bife_chorizo.jpg"
+      },
+
+      {
+        "id": 32,
+        "name": "Chorizo parrillero",
+        "price": 50,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Chuleta de res",
+        "price": 50,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/.jpg"
+      },
+      {
+        "id": 35,
+        "name": "Cuadril",
+        "price": 60,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/cuadril.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Punta de S",
+        "price": 60,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/punta_de_S.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Chuletón de cerdo",
+        "price": 50,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/chuleton_cerdo.jpg"
+      },
+      {
+        "id": 33,
+        "name": "Costilla de cerdo a la barbacoa",
+        "price": 55,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/costilla_cerdoBBQ.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Filete de pollo",
+        "price": 50,
+        "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+        "image": "assets/img/filete_pollo.jpg"
+      }
+    ]
+  },
+  {
+      "category": "Ceviches",
+      "items": [
+        {
+            "id": 4,
+            "name": "Ceviche de Puerto (Clásico)",
+            "price": 50,
+            "description": "",
+            "image": "assets/img/ceviche_clasico.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Ceviche Levanta Muertos",
+            "price": 70,
+            "description": "",
+            "image": "assets/img/ceviche_levantamuertos.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Ceviche Mixto",
+            "price": 60,
+            "description": "",
+            "image": "assets/img/ceviche_mixto.jpg"
+        }
+      ]
+    },
+      
+  {
+    "category": "Chaufas",
+    "items": [
+        {
+          "id": 12,
+          "name": "Chaufa con Chancho",
+          "price": 55,
+          "description": "",
+          "image": "assets/img/arroz_chaufa_pollo.jpg"
+        },
+        
+        {
+          "id": 11,
+          "name": "Chaufa con Pollo",
+          "price": 55,
+          "description": "",
+          "image": "assets/img/arroz_chaufa_pollo.jpg"
+      },
+      {
+          "id": 14,
+          "name": "Chaufa de Res",
+          "price": 55,
+          "description": "",
+          "image": "assets/img/arroz_chaufa_pollo.jpg"
+    },
+      {
+          "id": 10,
+          "name": "Chaufa con Mariscos",
+          "price": 60,
+          "description": "",
+          "image": "assets/img/arroz_chaufa_mariscos.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Chaufa Mixto",
+        "price": 55,
+        "description": "",
+        "image": "assets/img/arroz_chaufa_mixto.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Chicharrones",
+    "items": [
+        {
+            "id": 1,
+            "name": "Chicharrón de Trucha",
+            "price": 60,
+            "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+            "image": "assets/img/chicharron_trucha.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Filete de Trucha",
+          "price": 70,
+          "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+          "image": "assets/img/.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Jalea de Mariscos",
+            "price": 80,
+            "description": "Viene con arroz chaufa, ensalada fresca, papas fritas o yuca.",
+            "image": "assets/img/jalea_mariscos.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Combo Kids",
+      "items": [
+        {
+          "id": 36,
+          "name": "Combo Kit Niña",
+          "price": 55,
+          "description": "Hamburguesa con queso, palitos de pollo o 4 alitas, papas fritas, coca cola de 300ml y juguete de regalo.",
+          "image": "assets/img/combo_kit_niña.jpg"
+        },
+        {
+          "id": 36,
+          "name": "Combo Kit Niño",
+          "price": 55,
+          "description": "Hamburguesa con queso, palitos de pollo o 4 alitas, papas fritas, coca cola de 300ml y juguete de regalo.",
+          "image": "assets/img/combo_kit_niño.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Combo Marino",
+      "items": [
+        {
+          "id": 7,
+          "name": "Combo Marino 1",
+          "price": [
+            "100",
+            "180",
+            "280"
+          ],
+          "description": "1X | 2X | 4X ",
+          "image": "assets/img/combo_marino.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Combo Marino 2",
+          "price": [
+            "100",
+            "180",
+            "280"
+          ],          
+          "description": "1X | 2X | 4X ",
+          "image": "assets/img/combo_marinoX2.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Combo Marino 3",
+          "price": [
+            "100",
+            "180",
+            "280"
+          ],          
+          "description": "1X | 2X | 4X ",
+          "image": "assets/img/.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Hamburguesas",
+      "items": [
+        {
+          "id": 21,
+          "name": "Clásica",
+          "price": 20,
+          "description": "Carne, lechuga, tomate y salsa barbacoa.",
+          "image": "assets/img/hamburguesa_clasica.jpg"
+        },
+        {
+          "id": 21,
+          "name": "Cesar",
+          "price": 20,
+          "description": "Ensalda cesar, tocino, queso parmesano lechuga, tomate y salsa cesar.",
+          "image": "assets/img/.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Americana",
+          "price": 39,
+          "description": "",
+          "image": "assets/img/hamburguesa_americana.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Achorada",
+          "price": 39,
+          "description": "Chorizo, jamón, queso edam, queso cheddar , chips de camote, salsa anticuchera, lechuga y tomate",
+          "image": "assets/img/.jpg"
+        },
+        {
+          "id": 23,
+          "name": "Pobre",
+          "price": 42,
+          "description": "Huevo, postre, salsa de locoto, chorrellana, queso cheddar y salchicha",
+          "image": "assets/img/.jpg"
+        },
+        {
+          "id": 23,
+          "name": "San Andres",
+          "price": 38,
+          "description": "Queso edam, queso cheddar, jamón, tocino y salsa barbacoa.",
+          "image": "assets/img/san_andres.jpg"
+        },
+        {
+          "id": 24,
+          "name": "Hamburgusa Tejana",
+          "price": 39,
+          "description": "",
+          "image": "assets/img/hamburguesa_tejana.jpg"
+        },
+        {
+          "id": 21,
+          "name": "Waikicha",
+          "price": 45,
+          "description": "Queso edam, queso cheddar, queso guod, jamón, tocino, panceta, nachos, salsa barbacoa, lechuga y tomate.",
+          "image": "assets/img/hamburguesa_waikichas.jpg"
+        },
+        {
+          "id": 20,
+          "name": "Hamburguezon",
+          "price": 45,
+          "description": "Chancho a la cruz con queso cheddar, jamón, lechuga, tomate y nuestra salsa especial.",
+          "image": "assets/img/hamburguezon.jpg"
+        },
+        {
+          "id": 22,
+          "name": "Llunku",
+          "price": 46,
+          "description": "Dos carnes premium, queso cheddar, queso edam, doble tocino y papitas al hilo.",
+          "image": "assets/img/hamburguesa_llunku.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Tallarín Chifa",
+      "items": [
+        {
+          "id": 23,
+          "name": "Tallarín Salteado con Carne",
+          "price": 55,
+          "description": "Cortes finos de res con cebolla, tomate y cebollín, acompañados de tallarines estilo chifa.",
+          "image": "assets/img/tallarin_res.jpg"
+        },
+        {
+          "id": 24,
+          "name": "Tallarín Salteado con Pollo",
+          "price": 55,
+          "description": "Cortes finos de filete de pollo con cebolla, tomate y cebollín, acompañado de tallarines estilo chifa.",
+          "image": "assets/img/.jpg"
+        },
+        {
+          "id": 25,
+          "name": "Tallarín Salteado con Mariscos",
+          "price": 60,
+          "description": "Surtido especial de mariscos y camarones con cebolla, tomate y cebollín, acompañado de tallarines estilo chifa.",
+          "image": "assets/img/tallarin_mariscos.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Postres",
+      "items": [
+        {
+          "id": 27,
+          "name": "Mouse de Oreo",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/mouse_oreo.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Mouse de Maracuya",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/mouse_maracuya.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Mouse de Frutilla",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/mouse_frutilla.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Promociones",
+      "items": [
+        {
+          "id": 24,
+          "name": "La Tóxica 1X",
+          "price": 60,
+          "description": "1 Hamburguesa, costillita de cerdo, salchipapa, platanitos fritos, alitas de pollo y 1 Pepsi de 500ml",
+          "image": "assets/img/toxica_x1.jpg"
+        },
+        {
+          "id": 24,
+          "name": "La Tóxica 2X",
+          "price": 89,
+          "description": "2 Hamburguesa, costillita de cerdo, salchipapa, platanitos fritos, alitas de pollo y 2 Pepsi de 500ml.",
+          "image": "assets/img/toxica_x2.jpg"
+        },
+        {
+          "id": 26,
+          "name": "La Tóxica Trío 3X",
+          "price": 119,
+          "description": "3 Hamburguesas, costillita de cerdo, salchipapa, platanitos fritos, alitas de pollo y 3 Pepsi de 500ml.",
+          "image": "assets/img/toxica_x3.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Promo Hamburguesa 2x1",
+          "price": 39,
+          "description": "2 hamburguesas clásicas | Fin de semana feriados Bs. 45 ",
+          "image": "assets/img/promo_hamburguesa.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Waikilovers",
+          "price": 79,
+          "description": "2 hamburguesas clásicas, 2 alitas crocantes, 1 porción de papas y platanitos, 2 costillitas de cerdo a la barbacoa 2 y Pepsi de 500ml.",
+          "image": "assets/img/waikilovers.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Extras",
+      "items": [
+        {
+          "id": 27,
+          "name": "Porcion arroz chaufa pequeño",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_arroz_chaufa_pequeño.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Porcion arroz chaufa grande",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_arroz_chaufa_grande.jpg"
+        },
+        
+        {
+          "id": 27,
+          "name": "Porcion de ensalada pequeña",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_ensalada_pequeña.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Porcion de ensalada grande",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_ensalada_grande.jpg"
+        },
+        {
+          "id": 25,
+          "name": "Porcion de papas pequeño",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_papas_pequeño.jpg"
+        },
+        {
+          "id": 26,
+          "name": "Porcion de papas grande",
+          "price": 15,
+          "description": "",
+          "image": "assets/img/porcion_papas_grande.jpg"
+        },
+        {
+          "id": 23,
+          "name": "Porcion de postre pequeño",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_postre_pequeño.jpg"
+        },
+        {
+          "id": 24,
+          "name": "Porcion de postre grande",
+          "price": 15,
+          "description": "",
+          "image": "assets/img/porcion_postre.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Porcion de yuca",
+          "price": 10,
+          "description": "",
+          "image": "assets/img/porcion_yuca.jpg"
+        }
+      ]
+    }
+  ]
+}
+
+  
