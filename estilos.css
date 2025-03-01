@@ -152,13 +152,7 @@ body {
   background: #ff0000;
 }
 
-.toggle-btn {
-  display: none;
-  margin: 20px auto;
-  width: 40%;
-  justify-content: center;
-  text-align: center;
-}
+
 
 /* MENU CONTAINER */
 .menu-container {
@@ -380,6 +374,7 @@ body {
   text-align: center;
   padding: 2rem 1rem;
   border-top: 3px solid #ff0000;
+  margin-top: 80px;
 }
 
 .inferior p {
@@ -390,7 +385,6 @@ body {
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {
   .filters-container {
-    display: none;
     flex-direction: column;
     align-items: center;
     width: 80%;
@@ -400,13 +394,7 @@ body {
     display: flex;
   }
   
-  .toggle-btn {
-    display: block;
-    background: #ffa726;
-    padding: 0.7rem;
-    border-radius: 12px;
-    margin-top: 40px;
-  }
+
   
   .items-container {
     flex-direction: column;
@@ -562,9 +550,7 @@ body {
   margin-top: 0;
 }
 
-.city-group {
-  margin-bottom: 40px;
-}
+
 
 .city-group h3 {
   text-align: center;
