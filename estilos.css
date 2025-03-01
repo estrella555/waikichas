@@ -67,10 +67,10 @@ body {
 }
 
 /* MAIN HEADER */
-header .header {
+.header {
   position: relative !important;
   text-align: center;
-  background-image: url('/assets/img/favicon2.png') !important;
+  background-image: url('../assets/img/favicon-2.png');
   background-size: cover !important; /* Ajusta la imagen para cubrir todo el header */
   background-position: center !important; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -120,7 +120,7 @@ header .header {
 }
 
 .header img.top-left {
-  top: 10px;
+  top: 150px;
   left: 10px;
 }
 
@@ -390,7 +390,6 @@ header .header {
 /* RESPONSIVE STYLES */
 @media (max-width: 768px) {
   .filters-container {
-    flex-direction: column;
     align-items: center;
     width: 80%;
   }
@@ -413,28 +412,17 @@ header .header {
 
 @media only screen and (max-width: 450px) {
 
-  header .header {
-
-    background-image: url(/assets/img/favicon.png);
-
+  .header {
+  background-image: url('../assets/img/favicon.png');
   }
 
   .header h1 {
-    font-size: 2.9em;
-    margin-top: 25px;
+    font-size: 2.7em;
+    margin-top: 0px;
   }
 
   .header img.corner {
-    width: 19%;
-    margin: 10px;
-    margin-top: 40px !important;
-  }
-  
-  .header img.top-right {
-    width: 19%;
-    margin: 10px;
-    margin-top: -138px !important;
-    right: 15px !important;
+    display: none !important;
   }
 
   .header-top {
@@ -455,7 +443,6 @@ header .header {
     display: inline-block;
     margin-top: 10px;
     transition: color 0.3s ease-in-out;
-    margin-left: -30px;
   }
 
   .social-icons {
@@ -606,11 +593,12 @@ header .header {
 
 @media (max-width: 768px) {
   .items-container {
-    grid-template-columns: repeat(2, minmax(250px, 1fr)); /* 2 productos por fila */
+    grid-template-columns: repeat(1, minmax(250px, 1fr)); /* 1 productos por fila */
   }
 }
 
 @media (max-width: 480px) {
+
   .menu-container {
     width: 85%;
     max-width: 85%;
@@ -643,6 +631,15 @@ header .header {
 @media (max-width: 768px) {
   .map-container {
     width: 100%;
+  }
+  
+  .header img.corner {
+    display: none;
+  }
+  
+    .header h1 {
+    font-size: 2.7em;
+    margin-top: 0px;
   }
 }
 
