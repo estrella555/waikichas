@@ -70,19 +70,26 @@ body {
 .header {
   position: relative;
   text-align: center;
-  background-color: #101010;
+  background-image: url('/assets/img/favicon2.png');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el header */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   padding: 3rem 1rem;
   color: white;
   border-bottom: 3px solid #ff0000;
+  height: 30vh;
+  padding-bottom: 90px;
 }
 
+
 .header h1 {
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   font-weight: bold;
   color: #ff0000;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin: 0;
+  margin-top: 10px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -103,12 +110,13 @@ body {
 
 /* DECORATIVE IMAGES */
 .header img.corner {
-  position: absolute;
   width: 200px;
   height: auto;
+  right: 40px !important;
   z-index: 10;
   margin-left: 30px;
-  margin-top: 25px;
+  margin-top: -20px;
+  position: absolute;
 }
 
 .header img.top-left {
@@ -116,10 +124,7 @@ body {
   left: 10px;
 }
 
-.header img.top-right {
-  top: 10px;
-  right: 10px;
-}
+
 
 /* FILTERS SECTION */
 .filters-container {
@@ -407,6 +412,13 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+
+  .header {
+
+    background-image: url(/assets/img/favicon.png);
+
+  }
+
   .header h1 {
     font-size: 2.9em;
     margin-top: 25px;
@@ -415,10 +427,15 @@ body {
   .header img.corner {
     width: 19%;
     margin: 10px;
-    margin-top: 20px;
+    margin-top: 40px !important;
   }
   
-
+  .header img.top-right {
+    width: 19%;
+    margin: 10px;
+    margin-top: -138px !important;
+    right: 15px !important;
+  }
 
   .header-top {
     display: block;
@@ -438,6 +455,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     transition: color 0.3s ease-in-out;
+    margin-left: -30px;
   }
 
   .social-icons {
