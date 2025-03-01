@@ -166,7 +166,6 @@ body {
   gap: 40px;
   padding: 20px;
   max-width: 78%;
-
   width: 78%;
   display: flex;
   margin: 0.5rem auto;
@@ -608,6 +607,11 @@ body {
 }
 
 @media (max-width: 480px) {
+  .menu-container {
+    width: 85%;
+    max-width: 85%;
+  }
+  
   .items-container {
     grid-template-columns: repeat(1, minmax(250px, 1fr)); /* 1 producto por fila */
   }
